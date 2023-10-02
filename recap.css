@@ -1,0 +1,191 @@
+body{
+    font-family: Arial;
+}
+
+.todoDisplay button{
+    border: none;
+    background-color: rgb(155, 32, 32);
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+   
+}
+
+.css-textInput{
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.css-dateInput{
+    padding: 9px;
+    margin-right: 5px;
+}
+
+input{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.add-button{
+    border: none;
+    background-color: rgb(36, 172, 36);
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.css-todoDispArea{
+    display: grid;
+    grid-template-columns: 200px 125px 64px 20px;
+    margin-top: 8px;
+    align-items: center;
+    column-gap: 5px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+}
+
+.addNewList{
+    border: none;
+    border-radius: 50%;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.addNewList:active{
+    background-color: rgb(230, 230, 230);
+}
+
+header img{
+    width: 100%;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+
+
+.saveBtn{
+    display: block;
+    border: none;
+    background-color: rgb(155, 32, 32);
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    color: white;
+
+    font-size: 16px;
+    
+    margin-top: 5px;
+}
+
+
+.newListInfo{
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    position: absolute;
+    display: none; 
+    top: 60px;
+    right: 0px;
+    width: 250px;
+    padding: 20px;
+}
+
+.nav-bar{
+    position: fixed;
+    height: 100%;
+    background-color: rgb(248, 248, 248);
+    width: 200px;
+    display: none;
+
+}
+
+.addNewList-container{
+    position: relative;
+}
+
+.nameNewList-css, .fileName-css{
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.nav-button:hover{
+    border-radius: 50%;
+    
+    
+    background-color:rgb(248, 248, 248) ;
+}
+
+.displayPopup{
+    display: inline-block;
+}
+
+.displayNav{
+    display: inline-block;
+}
+
+header h1{
+    padding-left: 15px;
+}
+
+.navTodoListings{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 8px;
+
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    
+}
+
+.navTodoListings:hover{
+    background-color: rgb(172, 171, 171);
+    cursor: pointer;
+}
+
+
+.optionsBtn-container{
+    position: relative;
+}
+
+.optionsBtn-container:hover{
+    background-color: white;
+    border-radius: 50%;   
+}
+
+.todoListing-DeleteBtn{
+    border: none;
+    background-color: rgb(155, 32, 32);
+    padding: 8px;
+ 
+    border-radius: 6px;
+    cursor: pointer;
+    width: 70px;
+    color: white;
+
+     display: none; 
+
+    position: absolute;
+
+    top: 2px;
+
+    right: -70px;
+}
+
+.displayingTodoListing-DeleteBtn{
+    display: block;
+}
